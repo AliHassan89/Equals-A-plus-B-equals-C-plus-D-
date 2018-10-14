@@ -3,7 +3,7 @@ Given an array A of integers, find the index of values that satisfy A + B = C + 
 in the array
 
 Note:
-
+```
 1) Return the indices `A1 B1 C1 D1`, so that
   A[A1] + A[B1] = A[C1] + A[D1]
   A1 < B1, C1 < D1
@@ -25,4 +25,5 @@ Example:
 
 Input: [3, 4, 7, 1, 2, 9, 8]
 Output: [0, 2, 3, 5] (O index)
+```
 If no solution is possible, return an empty list.
